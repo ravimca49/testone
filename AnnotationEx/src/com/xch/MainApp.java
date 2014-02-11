@@ -6,7 +6,7 @@ public class MainApp {
 		ApplicationContext ctx =
 		new AnnotationConfigApplicationContext(HelloWorldConfig.class);
 		HelloWorld helloWorld = ctx.getBean(HelloWorld.class);
-		helloWorld.setMessage("Hello World!");
+		helloWorld.setMessage("hi Hello World!");
 		helloWorld.getMessage();
 		}
 }
